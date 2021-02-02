@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "socialico";
+    src: url("fonts/Socialico/Socialico.eot");
+    src: url("fonts/Socialico/Socialico.eot?#iefix") format("embedded-opentype"), url("fonts/Socialico/Socialico.woff2") format("woff2"), url("fonts/Socialico/Socialico.woff") format("woff"), url("fonts/Socialico/Socialico.ttf") format("truetype"), url("fonts/Socialico/Socialico.svg") format("svg");
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src:url('fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src:url('fonts/Montserrat-Bold.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 700;
+    color: skyblue;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 16px;
+    background: gray;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px auto 30px;
+}
+
+
+
+.a-email{
+    color: skyblue;
+}
+
+header .img-responsive{
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.objective{
+    margin: 20px auto;
+}
+
+.objective p{
+    width: 68%;
+    margin: 5px auto;
+}
+
+.personal-data{
+    border: 1px solid black;
+    padding: 20px 20px 72px 20px;
+    margin-right: 45px;
+}
+
+.educ-attainment{
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.personal-data h3{
+    margin: 0 auto 40px;
+}
+
+.personal-data p, .educ-attainment p{
+    margin: 10px 0;
+}
+
+.educ-attainment h3{
+    margin: 0 auto 20px;
+}
+
+.educ-attainment h4{
+    margin-top: 30px;
+}
+
+#WR-Btn{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.modal-section{
+    margin: 25px auto;
+}
+
+.modal-section p{
+    color: black;
+    margin: 10px 0;
+}
+
+.modal-section .p-strong{
+    margin-top: 30px;
+}
+
+.btn-info{
+    margin-top: 30px;
+    background: black;
+    border: none;
+}
+
+.btn-info:hover{
+    background: skyblue;
+    color: black;
+    padding: 12px 18px;
+    transition: 0.3s ease-in-out;
+}
+
+footer{
+    border-top: 1px solid black;
+    margin: 30px auto;
+    padding-top: 10px;
+}
+
+
+
+
